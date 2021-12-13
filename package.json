@@ -2,6 +2,9 @@
   "name": "react-ts-template",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.config.js --hot --open"
+  },
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
@@ -15,6 +18,10 @@
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "babel-loader": "^8.2.3",
-    "typescript": "^4.5.3"
+    "html-webpack-plugin": "^5.5.0",
+    "typescript": "^4.5.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
   }
 }
