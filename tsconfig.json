@@ -14,7 +14,8 @@
     "resolveJsonModule": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": ["react/next", "react-dom/next"]
   },
   "include": ["src/**/*"],
   "exclude": ["dist", "build", "node_modules"]
